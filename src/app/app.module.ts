@@ -11,6 +11,7 @@ import { Blog2Component } from './blogs/blog2/blog2.component';
 import { PostComponent } from './blogs/post/post.component';
 import { AdminDatatableComponent } from './admin-datatable/admin-datatable.component';
 import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
+import { RegisterComponent } from './auth/register/register.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
     Blog2Component,
     PostComponent,
     AdminDatatableComponent,
-    DeleteDialogComponent
+    DeleteDialogComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
