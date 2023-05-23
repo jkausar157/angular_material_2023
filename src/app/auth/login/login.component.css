@@ -1,0 +1,11 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+mat-card{
+    margin-top: 100px;
+    background-color: rgb(255, 127, 202);
+    padding: 40px;
+    width: 150%;
+}
